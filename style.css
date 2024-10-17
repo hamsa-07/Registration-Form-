@@ -1,0 +1,72 @@
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 202, 199);
+}
+
+.forms {
+    border: 2px solid rgb(167, 163, 164);
+    padding: 20px 40px;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#name{
+    font-weight: bold;
+}
+
+#box, textarea, select{
+    padding: 5px ;
+    width: 350px;
+    margin: 5px 0;
+    border-color: brown;
+    border-radius: 3px;
+}
+
+#pic{
+    border: 2px solid brown;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 340px;
+}
+
+#feed{
+    width: 355px;
+    margin: 5px;
+    padding: 4px;
+}
+
+#subs{
+    width: 355px;
+    margin: 5px;
+    padding: 5px;
+    border-color: green;
+}
+
+button{
+    margin: 10px 0px;
+    width: 180px;
+    padding: 5px 10px;
+    background-color: rgb(52, 52, 237);
+    border-color: blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: blue;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+}
